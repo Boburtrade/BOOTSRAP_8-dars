@@ -1,0 +1,25 @@
+body{
+    background-color: #0088FE;
+}
+.box{
+    margin: 0 55px;
+    color: white;
+}
+.boxes{
+    box-shadow: 0 -5px 10px 2px white;
+}
+.box1{
+    background-color: #0088FE;
+}
+.bod:before{
+    content: "";
+    border: 12px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    top: -24px;
+    left: 80px;
+}
+.b{
+    width: 100%;
+
+}

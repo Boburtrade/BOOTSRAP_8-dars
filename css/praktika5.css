@@ -1,0 +1,12 @@
+.box{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background: linear-gradient(45deg, dodgerblue, blueviolet);
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top: 2%;
+	left: 89%;
+	color: white;
+}

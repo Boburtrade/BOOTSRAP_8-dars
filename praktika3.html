@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/praktika3.css">
+</head>
+<body>
+<div class="container my-5">
+<h4>Navbars</h4>
+<br>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #394D64">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Project Name</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white active" href="#" data-toggle="dropdown" data-target="#nav">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" id="nav">
+                        <li><a class="dropdown-item " href="#">Action</a></li>
+                        <li><a class="dropdown-item " href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item " href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<h4>Gird & Panels</h4>
+    <div class="row my-5">
+        <div class="col-md-4">
+            <button type="button" class="btn btn-light w-100 text" data-toggle="collapse" data-target="#myBox">
+                Panel Heading
+            </button>
+            <div class="mt-0 collapse w-100 border border-1 border-light p-2" id="myBox">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid at consectetur cumque doloremque dolores eligendi et harum laudantium omnis provident quam quia,
+                    quisquam saepe similique sint soluta temporibus.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-info w-100 text" data-toggle="collapse" data-target="#myBo">
+                Panel Heading
+            </button>
+            <div class="mt-0 collapse w-100 border border-1 border-info p-2" id="myBo">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid at consectetur cumque doloremque dolores eligendi et harum laudantium omnis provident quam quia,
+                    quisquam saepe similique sint soluta temporibus.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-dark w-100 text" data-toggle="collapse" data-target="#myB">
+                Panel Heading
+            </button>
+            <div class="mt-0 collapse w-100 border border-1 border-dark p-2" id="myB">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid at consectetur cumque doloremque dolores eligendi et harum laudantium omnis provident quam quia,
+                    quisquam saepe similique sint soluta temporibus.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6">
+            <h4>Buttons & Alerts</h4>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="col-md-6" style="margin-top: 35px">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Warning! Warning!</strong>
+                <span class="close">&times;</span>
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Danger! Will Robinson!</strong>
+                <span class="close">&times;</span>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>You success :)</strong>
+                <span class="close">&times;</span>
+            </div>
+            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                <strong>Some information for you!</strong>
+                <span class="close">&times;</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
